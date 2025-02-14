@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Merienda:wght@400;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* Start header */
+body{
+        font-family: 'Cairo';
+}
+header .container .logo span.name{
+        font-family:'';
+}
+
+header .header2 .description p{
+        color: white !important;
+}
+header .header2 .description p span:nth-child(2){color: var(--main_color);}
+header .header2 .description form{
+        padding: 3px 10px 3px 3px;
+}
+header .header2 .description form input{
+        border-radius: 20px;
+}
+header .header2 .description form button:hover{
+        transform: translateX(30px);
+}
+/* End header */
+
+/* Start Aboutme */
+.aboutMe .img{
+        margin-right: 9%;
+}
+.outservice .h1 h1, .Iamavaliavle h1, .MySkills .container:first-child h1, .contact .container:first-child h1, .clients .container:first-child h1, .comment form h1, .Project .container:first-child h1{
+        font-family:'Cairo' ;
+}
+/* End Aboutme */
+.Project .container:first-child h1{
+        margin-bottom:25px;
+}
+.Project .container:nth-child(2) .thetitle h2{width: 244px;}
+.whyus .container:last-child .whyus-box h3{
+        line-height: 1.7;
+
+}
+
+.clients .container:last-child{
+        align-items: flex-start;
+}
+.clients .container:last-child .oneclient p{
+        line-height: 1.7;
+}
+
+.comment form hr{
+        margin-right: 0;
+}
+
+footer .container span a:nth-child(2){color: white;text-shadow: none;}
+footer .container span a:first-child{color: var(--dark-main_color);text-shadow: 0 0 10px var(--main_color);}
